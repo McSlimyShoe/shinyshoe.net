@@ -1,0 +1,15 @@
+version: '3.8'
+
+services:
+  server:
+    image: hugomods/hugo:base-non-root
+    command: server -D
+    volumes:
+      - "./shinyshoe.net:/src"
+    ports:
+      - "1313:1313"
+    restart: unless-stopped
+  build:
+    image: hugomods/hugo:base-non-root
+    volumes:
+      - "./shinyshoe.net:/src"
