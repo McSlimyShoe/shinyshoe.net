@@ -1,3 +1,18 @@
-baseURL: https://example.org/
+baseURL: https://shinyshoe.net/
 languageCode: en-us
-title: My New Hugo Site
+title: ShinyShoe
+theme: ["PaperMod"]
+menu:
+  main:
+    - name: "Home"
+      url: "/"
+      weight: 1
+    - name: "Blogs"
+      url: "/blog/"
+      weight: 2
+    - name: "About"
+      url: "/about/"
+      weight: 3
+    - name: "Contact"
+      url: "/contact/"
+      weight: 4

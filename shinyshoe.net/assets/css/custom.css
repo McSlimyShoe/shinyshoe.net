@@ -1,0 +1,13 @@
+.centered-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 0 auto;
+    width: 100%;
+  }
+  
+.centered-image img {
+    max-width: 100%;
+    height: auto;
+}
