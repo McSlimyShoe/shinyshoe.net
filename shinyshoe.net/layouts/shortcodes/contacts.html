@@ -1,0 +1,16 @@
+<div class="contact-list">
+    <ul>
+        {{ range site.Data.contacts.channels }}
+            <div class="contact-entry">
+                <li>
+                    <strong>{{ .channel }}</strong>: 
+                    {{ if .link }}
+                        <a href="{{ .link }}">{{ .name }}</a>
+                    {{ else }}
+                        {{ .name }}
+                    {{ end }}
+                </li>
+            </div>
+        {{ end }}
+    </ul>
+  </div>
