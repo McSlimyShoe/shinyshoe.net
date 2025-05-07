@@ -16,3 +16,27 @@ menu:
     - name: "Contact"
       url: "/contact/"
       weight: 4
+
+params:
+  profileMode:
+    enabled: true
+    title: "ShinyShoe"
+    subtitle: "My personal blog"
+    imageUrl: "/images/me.png"
+    imageTitle: "An ilustration of a magnetar"
+    imageWidth: 200
+    imageHeight: 200
+    buttons:
+      - name: Blogs Archive
+        url: "/blog"
+      - name: Page Source
+        url: "https://github.com/McShinyShoe/shinyshoe.net/"
+  socialIcons:
+    - name: "Bluesky"
+      url: "https://bsky.app/profile/shinyshoe.bsky.social"
+    - name: "Github"
+      url: "https://github.com/McShinyShoe/"
+    - name: "Email"
+      url: "mailto:shinyshoe@protonmail.com"
+    - name: "Reddit"
+      url: "https://www.reddit.com/user/Mc_ShinyShoe/"
