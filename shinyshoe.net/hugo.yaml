@@ -1,4 +1,4 @@
-baseURL: https://shinyshoe.net/
+baseURL: /
 languageCode: en-us
 title: ShinyShoe
 theme: ["PaperMod"]
@@ -44,6 +44,6 @@ params:
     - name: "Github"
       url: "https://github.com/McShinyShoe/"
     - name: "Email"
-      url: "mailto:shinyshoe@protonmail.com"
+      url: "mailto:mcshinyshoe@protonmail.com"
     - name: "Reddit"
       url: "https://www.reddit.com/user/Mc_ShinyShoe/"
